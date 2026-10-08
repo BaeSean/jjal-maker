@@ -20,4 +20,3 @@
 3. **Actions → Deploy GitHub Pages → Run workflow**를 실행합니다. 이후 `main`에 올린 변경 사항은 자동 배포됩니다.
 
 `.github/workflows/pages.yml`은 `dist` 폴더만 게시합니다. 실제 GitHub 저장소 연결과 배포는 아직 수행하지 않았습니다. Pages 주소로 옮기면 기존 Sites 주소에 저장했던 이미지는 자동 이전되지 않으므로 다시 업로드해야 합니다.
-
