@@ -13,10 +13,13 @@
 
 ## GitHub Pages 배포
 
-현재 운영 주소는 Sites에서 제공됩니다. GitHub Pages에서도 서버 없이 사용할 수 있습니다.
+GitHub 저장소: https://github.com/BaeSean/jjal-maker
+
+GitHub Pages는 GitHub Actions 방식으로 설정되어 있습니다.
 
 1. 이 프로젝트를 원하는 GitHub 저장소의 `main` 브랜치에 올립니다.
 2. 저장소의 **Settings → Pages → Build and deployment → Source**를 **GitHub Actions**로 선택합니다.
 3. **Actions → Deploy GitHub Pages → Run workflow**를 실행합니다. 이후 `main`에 올린 변경 사항은 자동 배포됩니다.
 
-`.github/workflows/pages.yml`은 `dist` 폴더만 게시합니다. 실제 GitHub 저장소 연결과 배포는 아직 수행하지 않았습니다. Pages 주소로 옮기면 기존 Sites 주소에 저장했던 이미지는 자동 이전되지 않으므로 다시 업로드해야 합니다.
+`.github/workflows/pages.yml`은 `dist` 폴더만 게시합니다. Pages 주소로 옮기면 기존 Sites 주소에 저장했던 이미지는 자동 이전되지 않으므로 다시 업로드해야 합니다.
+
